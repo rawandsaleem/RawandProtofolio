@@ -874,6 +874,15 @@ a:hover {
 /*======================================
 //--//-->   BLOG
 ======================================*/
+.card-blog{
+ height: 350px;
+}
+.card-blog:hover{
+      -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+        box-shadow: 1px 1px 5px #999;
+        transform: scale(1.1);
+}
 
 .card-blog .card-body {
   position: relative;
@@ -1200,6 +1209,7 @@ footer .credits a {
 
   .card-blog {
     margin-bottom: 3rem;
+
   }
 
   .contact-mf .box-pl2 {
@@ -1292,5 +1302,14 @@ footer .credits a {
 }
 .title-left1{
   font-size: 1.5rem;
+
+}
+#resume a{
+  color: #fff;
+
+}
+#resume a:hover{
+  color: #0078ff;
+   background: #fff;
 
 }
