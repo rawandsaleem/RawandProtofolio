@@ -703,6 +703,15 @@ a:hover {
   border-radius: 0;
   height: .7rem;
 }
+@keyframes wed{
+  from{
+    width: 0%;
+  }
+}
+
+#about:hover .progress-bar{
+  animation:wed 2s ; 
+}
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
