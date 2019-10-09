@@ -1219,8 +1219,18 @@ footer .credits a {
 }
 
 @media (min-width: 768px) {
+  .center{
+    display: flex;
+    justify-content: center;
+  }
   .box-shadow-full {
     padding: 3rem;
+   
+
+    
+  }
+  .box-m{
+     width: 50%;
   }
 
   .navbar-b.navbar-trans .nav-item,
@@ -1265,6 +1275,22 @@ footer .credits a {
   }
 }
 
+
+@media (max-width: 450px) {
+  .center {
+    margin-top: 2px;
+    
+
+  }
+  .overlay-mf{
+    height: 100%;
+  }
+  .box-m{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+}
 @media (min-width: 992px) {
   .testimonial-box .description {
     padding: 0 8rem;
